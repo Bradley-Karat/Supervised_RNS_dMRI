@@ -20,7 +20,7 @@ scipy = ">=1.8.0"
 scikit-image = ">=0.19.0"
 scikit-learn = ">=1.0.1"
 docutils = "<=0.21.2"
-PuLP = ">=2.7.0"
+PuLP = "<=2.7.0"
 DiffSimGen = { git = "https://github.com/Bradley-Karat/DiffSimGen.git" }
 
 [build-system]

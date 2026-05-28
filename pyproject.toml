@@ -12,7 +12,7 @@ Supervised_dMRI_fitting = "Supervised_dMRI_fitting.run:main"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.12"
-snakebids = "0.7.2"
+snakebids = "0.14.0"
 snakemake = "7.25.0"
 numpy = ">=1.13"
 nibabel = ">=3.2.1"

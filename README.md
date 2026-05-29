@@ -8,7 +8,7 @@ pip install poetry
 ```
 then the toolbox can be installed with:
 ```
-git clone (https://github.com/Bradley-Karat/Supervised_RNS_dMRI.git
+git clone https://github.com/Bradley-Karat/Supervised_RNS_dMRI.git
 cd Supervised_RNS_dMRI
 poetry install
 ```

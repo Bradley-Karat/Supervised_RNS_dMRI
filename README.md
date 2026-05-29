@@ -1,5 +1,5 @@
 # Supervised ML dMRI toolbox
-A BIDS app for fitting diffusion MRI models using supervised machine learning with a realistic noise synthesis approach (see reference below). The training signal can be given by the user (see the -h flag and the --Model flag) or a predefined model can be selected.
+A BIDS app for fitting diffusion MRI models using supervised machine learning with a __realistic noise synthesis__ approach (see reference below). The training signal can be given by the user (see the -h flag and the --Model flag) or a predefined model can be selected.
 
 ## Installation
 Dependency management and python package handling is done with [poetry](https://python-poetry.org/docs/).

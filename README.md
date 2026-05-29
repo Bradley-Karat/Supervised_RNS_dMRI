@@ -8,29 +8,29 @@ pip install poetry
 ```
 then the toolbox can be installed with:
 ```
-git clone https://github.com/Bradley-Karat/Supervised_dMRI_fitting.git
-cd Supervised_dMRI_fitting
+git clone (https://github.com/Bradley-Karat/Supervised_RNS_dMRI.git
+cd Supervised_RNS_dMRI
 poetry install
 ```
 ## Usage
 The package can be ran with:
 ```
-poetry run Supervised_dMRI_fitting
+poetry run Supervised_RNS_dMRI
 ```
 or 
 ```
 poetry shell
-Supervised_dMRI_fitting
+Supervised_RNS_dMRI
 ```
 Run either of these with the -h flag to get a detailed summary of the toolbox and its flags plus required arguments.
 ## Example Toolbox Call
 For a dry-run:
 ```
-Supervised_dMRI_fitting /path/to/bids/inputs /path/for/outputs participant --Model SANDI --Delta 23.6 --Small_Delta 7 --cores all -np
+Supervised_RNS_dMRI /path/to/bids/inputs /path/for/outputs participant --Model SANDI --Delta 23.6 --Small_Delta 7 --cores all -np
 ```
 To actually run the software:
 ```
-Supervised_dMRI_fitting /path/to/bids/inputs /path/for/outputs participant --Model SANDI --Delta 23.6 --Small_Delta 7 --cores all
+Supervised_RNS_dMRI /path/to/bids/inputs /path/for/outputs participant --Model SANDI --Delta 23.6 --Small_Delta 7 --cores all
 ```
 
 ## Example BIDS File Struture

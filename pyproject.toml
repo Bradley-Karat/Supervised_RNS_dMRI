@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "supervised_dMRI_fitting"
+name = "supervised_RNS_dMRI"
 version = "0.1.0"
 description = "Toolbox for supervised ML fitting of varying dMRI models"
 authors = ["Bradley-Karat <Bradley.Karat@nyulangone.org>"]
 license = "BSD-2-Clause"
 readme = "README.md"
-packages = [{include = "Supervised_dMRI_fitting"}]
+packages = [{include = "Supervised_RNS_dMRI"}]
 
 [tool.poetry.scripts]
-Supervised_dMRI_fitting = "Supervised_dMRI_fitting.run:main"
+Supervised_RNS_dMRI = "Supervised_RNS_dMRI.run:main"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.12"

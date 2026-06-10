@@ -55,4 +55,6 @@ Alternatively, the `--path-dwi` flag can be used to override BIDS by specifying 
 
 ## Reference
 If you use this toolbox or its approach for noise addition, please cite:
-(preprint)
+
+Karat, B. G., Jallais, M., Khan, A. R., Aja-Fernández, S., Veraart, J., & Palombo, M. (2026). Realistic noise synthesis reduces bias and improves tissue microstructure estimation with supervised machine learning. arXiv. https://arxiv.org/abs/2606.02044
+‌
